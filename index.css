@@ -1,0 +1,61 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #999999;
+}
+
+header {
+	text-align: center;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	border: solid #999999;
+}
+
+button {
+	display: block;
+	margin: auto;
+	background: #999999;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	padding: 10px 25px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.players {
+
+}
+
+.scoreboard {
+	color: red;
+	text-align: center;
+}
+
+.game-control {
+	min-width: 300px;
+	height: auto;
+}
+
+#dice-container {
+	display: none;
+	height: 150px;
+	width: 150px;
+	margin: 30px auto;
+}
+
+#roll-dice-btn {
+	display: none;
+	margin-top: 50px;
+}
+
+#new-game-btn {
+	display: none;
+	margin-top: 50px;
+}
